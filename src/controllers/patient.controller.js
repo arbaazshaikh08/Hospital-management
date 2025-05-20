@@ -285,7 +285,7 @@ const getMedicalBill = asyncHandlar(async(req, res) => {
         .json({ message: error.message || "Something went wrong." })
     }
 })
-
+ 
 //Update Medical Record
 const updateMedicalBill = asyncHandlar(async(req, res) => {
     // const {billId} = req.params
